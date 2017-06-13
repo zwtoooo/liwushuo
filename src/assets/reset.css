@@ -1,0 +1,11 @@
+*{ font-family:"微软雅黑"; }
+ul,ol,li{ list-style:none; }
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,figure,hr{ margin:0; }
+ul,ol,input,option,td,textarea{ padding:0; }
+input,select,textarea,hr{ border:0; }
+img{ display:block;border:0; }
+i,em{ font-style:normal; }
+b,strong,h1,h2,h3,h4,h5,h6{ font-weight:normal; }
+h1,h2,h3,h4,h5,h6{font-size:16px;}
+u,a{ text-decoration:none; }
+a{ color:#000; }
