@@ -11,6 +11,7 @@ Vue.use(http);
 Vue.http.interceptors.push((request, next) => {
  
 	console.log(request.url)  
+	console.log('test git')
 	next();
 });
 
