@@ -10,10 +10,16 @@ import http from 'vue-resource'
 Vue.use(http);
 Vue.http.interceptors.push((request, next) => {
  
-	console.log(request.url)  
-	console.log('test git')
+	console.log(request.url) 
 	next();
 });
+
+console.log('arvin zhou test git!');
+
+function logUser() {
+	alert('arvin zhou');
+}
+logUser();
 
 export default {
 	name: "homeMain",
